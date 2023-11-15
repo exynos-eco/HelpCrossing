@@ -1,0 +1,31 @@
+THIRD-PARTY-LICENSES
+
+This list of Third Party licenses is provided as indication without any guarantee of accuracy.
+For an exact license of each Third Party material, refer to its provider to obtain their license at the time of usage.
+
+
+This project makes use of the following third-party libraries:
+
+---
+
+Library Name: ENN Public API NDK
+
+Version: 1.0
+
+Full License Text:
+
+    Copyright (C) 2023 Samsung Electronics Co. LTD
+
+    This software is proprietary of Samsung Electronics.
+    No part of this software, either material or conceptual may be copied or
+    distributed, transmitted, transcribed, stored in a retrieval system or
+    translated into any human or computer language in any form by any means,
+    electronic, mechanical, manual or otherwise, or disclosed
+    to third parties without the express written permission of Samsung
+    Electronics.
+
+---
+
+This project make use of following third-party Neural Network models: (Name, License type, Locations):
+
+- SSD-MobileDET, Apache Licence 2.0, https://github.com/mlcommons/mobile_models/blob/main/LICENSE.md

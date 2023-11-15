@@ -1,3 +1,5 @@
+// Copyright (c) 2023 Samsung Electronics Co. LTD. Released under the MIT License.
+
 package com.samsung.helpcrossing.fragments
 
 import android.content.SharedPreferences
