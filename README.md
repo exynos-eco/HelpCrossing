@@ -12,7 +12,7 @@ Although training models specifically for the use case might yield preferable re
 Upon conversion, import the model to the HelpCrossing application.
 HelpCrossing processes camera feed to detect vehicles.
 This process encompasses:
-- Setting image analyzer ([code](https://github.com/exynos-eco/HelpCrossing/blob/main/app/src/main/java/com/samsung/helpcrossing/fragments/CameraFragment.kt#L104))
+- Setting image analyzer ([code](https://github.com/exynos-eco/HelpCrossing/blob/main/app/src/main/java/com/samsung/helpcrossing/fragments/CameraFragment.kt#L106))
 - Executing model using ENN Framework ([code](https://github.com/exynos-eco/HelpCrossing/blob/main/app/src/main/java/com/samsung/helpcrossing/executor/ModelExecutor.kt#L65))
 - Processing the output of the model to determine detected vehicles ([code](https://github.com/exynos-eco/HelpCrossing/blob/main/app/src/main/java/com/samsung/helpcrossing/executor/ModelExecutor.kt#L114))
 
