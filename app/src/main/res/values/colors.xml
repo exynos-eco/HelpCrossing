@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bounding_box_color">#FFEC97B0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mint">#92E0EA</color>
+    <color name="purple">#470253</color>
+    <color name="samsung">#1429A0</color>
+    <color name="samsung_light">#BEC6F3</color>
+    <color name="gray">#80333333</color>
+
+    <color name="colorPrimary">#eeeeee</color>
+    <color name="colorPrimaryDark">#eeeeee</color>
+    <color name="colorAccent">#03DAC5</color>
+</resources>

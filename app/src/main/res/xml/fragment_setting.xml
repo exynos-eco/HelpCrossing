@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/twotone_straighten_24"
+        app:title="Detection">
+        <DropDownPreference
+            app:defaultValue="0.5"
+            app:dialogTitle="Threshold Value"
+            app:entries="@array/array_threshold"
+            app:entryValues="@array/array_threshold"
+            app:key="@string/threshold"
+            app:summary="You can set the value of threshold to find the best score of detection "
+            app:title="Set Threshold Value" />
+        <MultiSelectListPreference
+            app:entries="@array/array_cocoLabels"
+            app:entryValues="@array/array_cocoLabels"
+            app:key="@string/objects"
+            app:title="Select objects" />
+    </PreferenceCategory>
+
+    <Preference
+        app:key="feedback"
+        app:summary="Report technical issues or suggest new features.\n
+[iris.lim@thundersoft.com]"
+        app:title="Send feedback" />
+</PreferenceScreen>
